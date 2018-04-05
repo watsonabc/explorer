@@ -108,13 +108,7 @@ app.use('/ext/connections', function(req,res){
 
 app.use('/ext/getcirculatingsupply', function(req,res){
   lib.get_supply(function(supply){
-    if (settings.masternodes.enabled){
-      db.get_masternodes_count(function(mn_count){
-        res.send(' '+(supply-(mn_count*settings.masternodes.collateral)));
-      });
-    } else {
-      res.send(' '+supply);
-    }
+    res.send(' '+supply);
   });
 });
 
