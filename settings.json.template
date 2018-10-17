@@ -5,15 +5,15 @@
 */
 {
   // name your instance!
-  "title": "IQUIDUS",
+  "title": "Northern Explorer",
 
   "address": "127.0.0.1:3001",
 
   // coin name
-  "coin": "Darkcoin",
+  "coin": "Northern",
 
   // coin symbol
-  "symbol": "DRK",
+  "symbol": "NORT",
 
   // logo
   "logo": "/images/logo.png",
@@ -33,9 +33,9 @@
 
   // database settings (MongoDB)
   "dbsettings": {
-    "user": "iquidus",
-    "password": "3xp!0reR",
-    "database": "explorerdb",
+    "user": "",
+    "password": "",
+    "database": "",
     "address": "localhost",
     "port": 27017
   },
@@ -48,8 +48,8 @@
   "wallet": {
     "host": "localhost",
     "port": 9332,
-    "user": "darkcoinrpc",
-    "pass": "123gfjk3R3pCCVjHtbRde2s5kzdf233sa"
+    "user": "",
+    "pass": ""
   },
 
   // confirmations
@@ -61,9 +61,9 @@
   // menu settings
   "display": {
     "api": true,
-    "markets": true,
+    "markets": false,
     "richlist": true,
-    "twitter": true,
+    "twitter": false,
     "facebook": false,
     "googleplus": false,
     "search": true,
@@ -74,16 +74,16 @@
   // index page (valid options for difficulty are POW, POS or Hybrid)
   "index": {
     "show_hashrate": true,
-    "difficulty": "POW",
+    "difficulty": "POS",
     "last_txs": 100
   },
 
   // ensure links on API page are valid
   "api": {
-    "blockindex": 1337,
-    "blockhash": "1733320247b15ca2262be646397d1ffd6be953fa638ebb8f5dcbb4c2b91b34f1",
-    "txhash": "f270cd3813254c9922a2e222a56ba745842d9112223a1394062e460b33d27b7e",
-    "address": "RBiXWscC63Jdn1GfDtRj8hgv4Q6Zppvpwb"
+    "blockindex": 203334,
+    "blockhash": "8a7302115fdef14838b87db7d57769e8bcd20a8408fa8df9ac103531b7c5a1c6",
+    "txhash": "eaa981115e35c18d91267cc15c8d605f6830a46e7a9894c5825d275bc18e7f5f",
+    "address": "NUVFnP9MtegCrApKzSJsvie9bYxs7Js13b"
   },
 
   // market settings
@@ -109,9 +109,9 @@
   // low flag: greater than this value flagged yellow
   // high flag: greater than this value flagged red
   "movement": {
-    "min_amount": 100,
+    "min_amount": 500,
     "low_flag": 1000,
-    "high_flag": 5000
+    "high_flag": 10000
   },
 
   // twitter, facebook, googleplus
@@ -120,8 +120,8 @@
   "googleplus": "yourgooglepluspage",
 
   //genesis
-  "genesis_tx": "65f705d2f385dc85763a317b3ec000063003d6b039546af5d8195a5ec27ae410",
-  "genesis_block": "b2926a56ca64e0cd2430347e383f63ad7092f406088b9b86d6d68c2a34baef51",
+  "genesis_tx": "d611ad6808864e0e9bd331f3ffa2298c9e13a54d9fe59a99ccb3a75db374b7c9",
+  "genesis_block": "000001e1a5a4257154c65b46fc732bfa637ba7a898525373ba32ec4aa79921dd",
 
   //heavy (enable/disable additional heavy features)
   "heavy": false,
@@ -138,7 +138,7 @@
   // HEAVY: retreive from heavys getsupply api call
   // BALANCES : total of all address balances
   // TXOUTSET : retreive from gettxoutsetinfo api call
-  "supply": "COINBASE",
+  "supply": "GETINFO",
 
   // how to acquire network hashrate
   // getnetworkhashps: uses getnetworkhashps api call, returns in GH/s
