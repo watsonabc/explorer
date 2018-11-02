@@ -21,12 +21,7 @@
   // favicon
   "favicon": "public/favicon.ico",
 
-  // Uses bootswatch themes (http://bootswatch.com/)
-  // Valid options:
-  //     Cerulean, Cosmo, Cyborg, Darkly, Flatly, Journal, Lumen, Paper,
-  //     Readable, Sandstone, Simplex, Slate, Spacelab, Superhero, United, Yeti
-  // theme (see /public/themes for available themes)
-  "theme": "Cyborg",
+  "theme": "Readable",
 
   // port to listen for requests on.
   "port" : 3001,
@@ -68,7 +63,8 @@
     "googleplus": false,
     "search": true,
     "movement": true,
-    "network": true
+    "network": true,
+    "masternodes": true
   },
 
   // index page (valid options for difficulty are POW, POS or Hybrid)
@@ -86,9 +82,6 @@
     "address": "NUVFnP9MtegCrApKzSJsvie9bYxs7Js13b"
   },
 
-  // market settings
-  //supported markets: bittrex, poloniex, yobit, empoex, bleutrade, cryptopia, ccex
-  //default market is loaded by default and determines last price in header
   "markets": {
     "coin": "JBS",
     "exchange": "BTC",
@@ -104,10 +97,7 @@
     "received": true,
     "balance": true
   },
-  // movement page settings
-  // min amount: show transactions greater than this value
-  // low flag: greater than this value flagged yellow
-  // high flag: greater than this value flagged red
+
   "movement": {
     "min_amount": 500,
     "low_flag": 1000,
