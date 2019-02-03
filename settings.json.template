@@ -5,15 +5,15 @@
 */
 {
   // name your instance!
-  "title": "Northern Explorer",
+  "title": "MTAP Explorer",
 
   "address": "127.0.0.1:3001",
 
   // coin name
-  "coin": "Northern",
+  "coin": "MTAP",
 
   // coin symbol
-  "symbol": "NORT",
+  "symbol": "MTAP",
 
   // logo
   "logo": "/images/logo.png",
@@ -42,7 +42,7 @@
   // wallet settings
   "wallet": {
     "host": "localhost",
-    "port": 9332,
+    "port": 10122,
     "user": "",
     "pass": ""
   },
@@ -76,9 +76,9 @@
 
   // ensure links on API page are valid
   "api": {
-    "blockindex": 203334,
-    "blockhash": "8a7302115fdef14838b87db7d57769e8bcd20a8408fa8df9ac103531b7c5a1c6",
-    "txhash": "eaa981115e35c18d91267cc15c8d605f6830a46e7a9894c5825d275bc18e7f5f",
+    "blockindex": 0,
+    "blockhash": "00000cc4eeca2c46278d9e80a2ac7b87ea7d6e598a6da9f76d09a87ffdbcbf4c",
+    "txhash": "b669a1c85f7c29abf1bc8290dea4610117da5770dff5348875a29ad31667c692",
     "address": "NUVFnP9MtegCrApKzSJsvie9bYxs7Js13b"
   },
 
@@ -110,8 +110,8 @@
   "googleplus": "yourgooglepluspage",
 
   //genesis
-  "genesis_tx": "d611ad6808864e0e9bd331f3ffa2298c9e13a54d9fe59a99ccb3a75db374b7c9",
-  "genesis_block": "000001e1a5a4257154c65b46fc732bfa637ba7a898525373ba32ec4aa79921dd",
+  "genesis_tx": "b669a1c85f7c29abf1bc8290dea4610117da5770dff5348875a29ad31667c692",
+  "genesis_block": "00000cc4eeca2c46278d9e80a2ac7b87ea7d6e598a6da9f76d09a87ffdbcbf4c",
 
   //heavy (enable/disable additional heavy features)
   "heavy": false,
